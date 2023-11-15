@@ -38,11 +38,15 @@ html, body{
     top: -40px;
     left: 0px;
     animation-name: drive;
-    animation-duration: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: both; 
+    /* backward, forward */
+    animation-iteration-count: infinite;
+    /* animation-delay: 1s; */
 }
 
 /* KEYFRAMES */
 @keyframes drive{
-    from{ transform: translatex(0);}
-    to{ transform: translatex(850px);}
+    from{ transform: translatex(-200px);}
+    to{ transform: translatex(1000px);}
 }
