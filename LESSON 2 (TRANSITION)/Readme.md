@@ -1,1 +1,1 @@
-Basic transitionn fie in css
+Basic transition fie in css
